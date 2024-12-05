@@ -1,0 +1,44 @@
+# Ignore Node.js dependencies (if applicable)
+node_modules/
+
+# Ignore build artifacts and cache
+dist/
+out/
+*.log
+*.cache
+
+# Ignore configuration files containing sensitive information
+.env
+.env.local
+*.key
+*.pem
+
+# Ignore temporary and system files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.swp
+
+# Ignore package managers' lock files (optional, depending on your workflow)
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore Cloudflare-specific files (if using wrangler or workers)
+.cloudflare/
+wrangler.toml
+
+# Ignore editor/IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore local test files
+test-results/
+coverage/
+
+# Ignore deployment or temporary artifacts
+*.zip
+*.tar
